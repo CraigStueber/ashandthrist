@@ -18,7 +18,9 @@ export default function Home() {
           <a href="#journey" className="hover:text-white">
             The Journey
           </a>
-          <span className="cursor-not-allowed opacity-40">Enter</span>
+          <Link href="/enter" className="transition hover:text-white">
+            Enter
+          </Link>
         </nav>
       </header>
 
