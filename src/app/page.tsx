@@ -112,7 +112,7 @@ export default function Home() {
           </p>
 
           <p className="mt-10 text-xl italic text-[#D49B62]">
-            Not every rumor is true.
+            Not every rumor is true. Some are worth dying for.
           </p>
         </div>
       </section>
