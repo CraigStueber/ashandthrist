@@ -1,69 +1,127 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <main className="min-h-screen bg-[#100E0C] text-[#E6D3B5]">
+      <header className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-6 py-6 md:px-12">
+        <Link
+          href="/"
+          className="text-lg font-semibold tracking-[0.25em] uppercase"
+        >
+          Ash & Thirst
+        </Link>
+
+        <nav className="flex items-center gap-6 text-xs uppercase tracking-[0.2em] text-[#D49B62]">
+          <a href="#world" className="hover:text-white">
+            The World
+          </a>
+          <a href="#journey" className="hover:text-white">
+            The Journey
+          </a>
+          <span className="cursor-not-allowed opacity-40">Enter</span>
+        </nav>
+      </header>
+
+      <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 text-center">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{
+            backgroundImage: "url('/images/athas-hero.jpg')",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+
+        <div className="absolute inset-0 bg-gradient-to-b from-[#100E0C]/50 via-[#100E0C]/40 to-[#100E0C]" />
+
+        <div className="relative z-10 mx-auto max-w-4xl pt-20">
+          <p className="mb-8 text-xs uppercase tracking-[0.45em] text-[#D49B62]">
+            A Dark Sun Campaign
+          </p>
+
+          <h1 className="text-6xl font-semibold uppercase tracking-[0.12em] md:text-8xl">
+            Ash
+            <span className="block text-[#D49B62]">& Thirst</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+
+          <div className="mx-auto my-10 h-px w-24 bg-[#A44830]" />
+
+          <p className="text-xl italic text-[#E6D3B5] md:text-2xl">
+            Freedom is a rumor. Survival is a choice.
+          </p>
+
+          <p className="mx-auto mt-8 max-w-xl text-sm leading-8 text-[#C6B5A1] md:text-base">
+            Beneath the crimson sun, the world is dying. Its cities are cruel.
+            Its roads belong to those who can survive them.
+          </p>
+
+          <a
+            href="#world"
+            className="mt-12 inline-block border border-[#D49B62] px-9 py-4 text-xs uppercase tracking-[0.25em] transition hover:bg-[#D49B62] hover:text-[#100E0C]"
+          >
+            Discover Athas
+          </a>
+        </div>
+
+        <div className="absolute bottom-8 text-xs uppercase tracking-[0.3em] text-[#D49B62]/70">
+          Scroll to Explore
+        </div>
+      </section>
+
+      <section
+        id="world"
+        className="border-t border-[#391D18] px-6 py-28 md:py-40"
+      >
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-6 text-xs uppercase tracking-[0.35em] text-[#A44830]">
+            The World of Athas
+          </p>
+
+          <h2 className="mb-10 text-4xl uppercase tracking-[0.12em] md:text-5xl">
+            A World Without Mercy
+          </h2>
+
+          <p className="text-lg leading-9 text-[#C6B5A1]">
+            Water is wealth. Steel is legend. Sorcerer-kings rule from cities
+            built upon suffering.
+          </p>
+
+          <p className="mt-6 text-lg leading-9 text-[#C6B5A1]">
+            Beyond their walls stretch endless wastes, forgotten ruins, and
+            roads where every traveler is either predator or prey.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      <section id="journey" className="bg-[#1B1410] px-6 py-28 md:py-40">
+        <div className="mx-auto max-w-3xl text-center">
+          <p className="mb-6 text-xs uppercase tracking-[0.35em] text-[#A44830]">
+            The Journey
+          </p>
+
+          <h2 className="mb-10 text-4xl uppercase tracking-[0.12em] md:text-5xl">
+            The Chains Will Break
+          </h2>
+
+          <p className="text-lg leading-9 text-[#C6B5A1]">
+            You were bought. You were branded. You were marched toward a fate
+            someone else had chosen.
+          </p>
+
+          <p className="mt-6 text-lg leading-9 text-[#C6B5A1]">
+            Somewhere beyond the wastes, whispers speak of a city where no one
+            wears chains.
+          </p>
+
+          <p className="mt-10 text-xl italic text-[#D49B62]">
+            Not every rumor is true.
+          </p>
         </div>
-      </main>
-    </div>
+      </section>
+
+      <footer className="border-t border-[#391D18] px-6 py-10 text-center">
+        <p className="text-xs uppercase tracking-[0.25em] text-[#8D7967]">
+          Ash & Thirst — A Dark Sun Campaign
+        </p>
+      </footer>
+    </main>
   );
 }
