@@ -23,6 +23,7 @@
   "devDependencies": {
     "@cloudflare/vite-plugin": "^2.0.0-beta.sha-8c6014f9a",
     "@tailwindcss/turbopack": "^4",
+    "@tailwindcss/vite": "^4.3.3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
