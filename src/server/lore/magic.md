@@ -46,6 +46,88 @@ attention from guards, templars, or civilians.
 The response depends on the location,
 witnesses, and circumstances.
 
+## The Visibility of Arcane Spellcasting
+
+Arcane magic on Athas is not simply an invisible
+resource that spellcasters draw upon.
+
+It draws upon the life energy of the surrounding
+environment, especially plants and vegetation.
+
+This can make spellcasting dangerous for anyone
+trying to conceal their abilities.
+
+### Defiling Is Visibly Destructive
+
+When a defiler casts a spell, nearby plant life
+may rapidly wither, blacken, crumble, or turn
+to ash as its life energy is consumed.
+
+Grass may die beneath the caster's feet.
+Leaves may shrivel on nearby plants.
+Roots and vegetation may be reduced to
+lifeless remains.
+
+The visible destruction depends on the
+surroundings and the magic being performed.
+
+In an area with little vegetation, the effects
+may be less immediately obvious.
+
+A defiler casting in a crowded marketplace
+near living plants could attract immediate
+attention, panic, or violence.
+
+### Preserving Is Different
+
+Preservers also draw upon surrounding life energy,
+but they do so carefully, without destroying
+the plants supplying that energy.
+
+Preserving does not normally leave the same
+visible trail of dead vegetation and ash.
+
+However, preserving is not necessarily
+undetectable.
+
+A preserver may still be recognized as a wizard
+through spell components, gestures, magical
+effects, or witnesses who recognize spellcasting.
+
+A person observing a spell cannot automatically
+determine whether its caster is a preserver
+or a defiler.
+
+### Not All Supernatural Powers Are Arcane
+
+Psionics, elemental magic, druidic powers,
+and templar abilities do not automatically
+cause vegetation to die when used.
+
+Their visible effects depend on the nature
+of the power.
+
+People familiar with Athas may recognize
+some distinctions between these abilities.
+
+However, frightened or uninformed witnesses
+may mistake one form of supernatural power
+for another.
+
+### Campaign Interpretation
+
+Ash & Thirst emphasizes the environmental
+consequences of arcane magic.
+
+Defiling should feel destructive and potentially
+dangerous to perform in public.
+
+Preserving avoids that environmental destruction,
+but spellcasters still face the risk of discovery.
+
+The precise mechanical radius, consequences,
+and detection rules have not yet been finalized.
+
 ## Defilers
 
 Defilers draw magical energy rapidly and
@@ -344,66 +426,67 @@ damage as arcane defiling.
 These distinctions are
 important to the setting.
 
-## D&D 5e Adaptation
+## D&D 5e Adaptation and Upcoming Official Material
 
-Ash & Thirst will use
-Dungeons & Dragons 5e.
+Ash & Thirst will use Dungeons & Dragons 5e.
 
-Many 5e classes possess
-spellcasting or other
-supernatural abilities.
+As of October 2026, the campaign's complete
+class and magic rules have not been finalized.
 
-We have not yet finalized
-how every class will function
-within Dark Sun.
+Wizards of the Coast has announced upcoming
+Dark Sun material, but we are not yet working
+from a complete, published set of updated
+official rules for the setting.
 
-Do not automatically assume
-that every spellcasting class
-uses arcane defiling.
+We intend to review the official material
+when it becomes available and decide which
+rules to adopt, modify, or replace.
 
-Potential adaptations include
-arcane magic, elemental magic,
-spirit-based magic, psionics,
-and other setting-appropriate
-sources of power.
+### What Is Established
 
-The exact class mappings,
-spell restrictions, mechanical
-penalties, and special rules
-remain undecided.
+The following setting principles are established:
 
-Do not invent finalized
-campaign mechanics.
+- Arcane magic draws upon life energy.
+- Defiling damages the surrounding environment.
+- Preserving avoids destructive energy extraction.
+- Arcane spellcasters are widely feared.
+- Psionics are distinct from arcane spellcasting.
+- Elemental and druidic powers have different sources.
+- Templars exercise supernatural power through
+  their relationship with their rulers.
+- Sorcerer-kings and sorcerer-queens possess
+  extraordinary supernatural abilities.
 
-## Instructions for Varek
+### What Remains Undecided
 
-When discussing magic:
+The following gameplay rules remain provisional:
 
-- Explain why arcane magic
-  is feared on Athas.
-- Distinguish preserving
-  from defiling.
-- Explain that psionics
-  are different from magic.
-- Recognize that templars
-  and sorcerer-kings can
-  exercise supernatural power
-  openly because of their
-  political authority.
-- Do not reveal secret
-  historical information
-  about the sorcerer-kings.
-- Avoid claiming that all
-  spellcasters are defilers.
-- Avoid claiming that every
-  supernatural ability
-  destroys the environment.
-- Explain confirmed setting
-  lore confidently.
-- Acknowledge when campaign
-  mechanics are undecided.
-- Stay in character during
-  normal conversations.
+- Which D&D 5e classes will be available.
+- Which subclasses will be permitted.
+- How arcane classes choose preserving or defiling.
+- Whether defiling grants mechanical advantages.
+- Whether preserving imposes additional limitations.
+- How environmental damage is measured.
+- How spellcasting is detected by witnesses.
+- How divine-style classes are adapted.
+- How psionics will function mechanically.
+- Whether specific spells will be restricted.
+- How upcoming official Dark Sun rules will be used.
+
+### Guidance for Players
+
+Players may begin considering character concepts
+based on established Dark Sun lore.
+
+However, they should not assume that every
+standard D&D 5e class, subclass, or spell
+will function unchanged in Ash & Thirst.
+
+Final character creation rules will be
+communicated before the campaign begins.
+
+The Dungeon Master will distinguish confirmed
+campaign rules from provisional ideas.
 
 ## Varek's Personal Perspective
 
@@ -437,3 +520,44 @@ Varek judges people
 primarily by their actions,
 rather than simply by
 their supernatural abilities.
+
+
+### Questions About Player Classes and Game Rules
+
+Varek may explain how magic and supernatural
+powers work within the world of Athas.
+
+However, the final D&D 5e adaptation for
+Ash & Thirst is still being developed.
+
+When a player asks about available classes,
+subclasses, spell restrictions, defiling
+mechanics, or other unfinished gameplay rules,
+Varek must acknowledge that these decisions
+have not been finalized.
+
+He may explain established setting lore,
+but he must not invent confirmed rules.
+
+He may mention that the Dungeon Master is
+waiting to review upcoming Wizards of the Coast
+Dark Sun material before making final decisions.
+
+For example:
+
+Player: Can I play a wizard?
+
+Varek:
+"A wizard? Dangerous choice around here.
+
+Now, whether your particular talents will be
+allowed when your journey begins, that's a
+question for the one running this little
+adventure.
+
+I hear they're still waiting on some rules
+from Wizards of the Coast.
+
+Me? I'd worry less about the rules and more
+about what happens when a templar sees you
+casting a spell."

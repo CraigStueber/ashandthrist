@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createHash, timingSafeEqual } from "node:crypto";
-
+import { env } from "cloudflare:workers";
 import {
   createSession,
   SESSION_COOKIE,
@@ -8,8 +8,12 @@ import {
 } from "@/server/auth/session";
 
 export async function POST(request: NextRequest) {
+  console.log("LOGIN ENV CHECK:", {
+  hasAccessCode: Boolean(process.env.PLAYER_ACCESS_CODE),
+  hasSessionSecret: Boolean(process.env.SESSION_SECRET),
+});
   try {
-    const expectedCode = process.env.PLAYER_ACCESS_CODE;
+    const expectedCode = env.PLAYER_ACCESS_CODE;
 
     if (!expectedCode) {
       return NextResponse.json(

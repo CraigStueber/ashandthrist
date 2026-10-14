@@ -6,9 +6,15 @@ export default defineConfig({
     entrypoint: "vinext/server/fetch-handler",
     compatibilityDate: "2026-10-13",
     compatibilityFlags: ["nodejs_compat"],
-    assets: { notFoundHandling: "none", runWorkerFirst: ["/_vinext/static-cache/*"] },
+    assets: {
+      notFoundHandling: "none",
+      runWorkerFirst: ["/_vinext/static-cache/*"],
+    },
     env: {
       ASSETS: bindings.assets(),
+      PLAYER_ACCESS_CODE: bindings.secret(),
+      SESSION_SECRET: bindings.secret(),
+      OPENAI_API_KEY: bindings.secret(),
     },
   }),
 });

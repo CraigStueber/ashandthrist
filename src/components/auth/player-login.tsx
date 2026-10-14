@@ -1,17 +1,19 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useState, type FormEvent } from "react";
 
 export default function PlayerLogin() {
   const router = useRouter();
 
-  const [code, setCode] = useState("");
-  const [error, setError] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+
+    if (!password.trim() || loading) return;
 
     setLoading(true);
     setError("");
@@ -19,65 +21,65 @@ export default function PlayerLogin() {
     try {
       const response = await fetch("/api/auth/login", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ code }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ accessCode: password }),
       });
 
-      const result = (await response.json()) as {
-        success?: boolean;
-        error?: string;
-      };
-
       if (!response.ok) {
-        setError(result.error || "Access denied.");
+        setError(
+          response.status === 401
+            ? "The chest clicks its teeth. Apparently, those weren't the words."
+            : "The chest growls. Something went wrong. Try again.",
+        );
         return;
       }
 
-      setCode("");
       router.refresh();
     } catch {
-      setError("Something went wrong. Try again.");
+      setError("The chest refuses to cooperate. Try again.");
     } finally {
       setLoading(false);
     }
   }
 
   return (
-    <form onSubmit={handleSubmit} className="mt-10 space-y-6">
-      <div>
-        <label
-          htmlFor="access-code"
-          className="block text-xs uppercase tracking-[0.2em] text-[#D49B62]"
-        >
-          Secret Password
-        </label>
+    <form onSubmit={handleSubmit} className="space-y-5">
+      <label htmlFor="mimic-password" className="sr-only">
+        Secret access code
+      </label>
+
+      <div className="flex items-center gap-4 rounded-lg border border-[#A46A35] bg-[#0D0907] px-5 py-4 focus-within:border-[#E0A45E]">
+        <span aria-hidden="true" className="text-xl text-[#CBA879]">
+          ⚿
+        </span>
 
         <input
-          id="access-code"
+          id="mimic-password"
           type="password"
-          value={code}
-          onChange={(event) => setCode(event.target.value)}
           autoComplete="off"
+          value={password}
+          onChange={(event) => setPassword(event.target.value)}
+          placeholder="Whisper the secret words..."
           required
-          maxLength={200}
-          className="mt-3 w-full rounded border border-[#614530] bg-[#100E0C] px-4 py-4 text-[#E6D3B5] outline-none focus:border-[#D49B62]"
-          placeholder="The chest is listening..."
+          className="w-full min-w-0 bg-transparent text-base text-[#F3DFC1] outline-none placeholder:text-[#96795E]"
         />
       </div>
 
+      <button
+        type="submit"
+        disabled={loading || !password.trim()}
+        className="w-full rounded-lg bg-gradient-to-r from-[#BD7836] via-[#E0A15A] to-[#BD7836] px-6 py-4 font-serif text-base font-bold uppercase tracking-[0.2em] text-[#170D07] transition hover:brightness-110 disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        {loading ? "The Chest Is Thinking..." : "Trust the Chest"}
+      </button>
+
       {error && (
-        <p role="alert" className="text-sm text-red-400">
+        <p role="alert" className="text-center text-sm text-[#E9A17D]">
           {error}
         </p>
       )}
-
-      <button
-        type="submit"
-        disabled={loading}
-        className="w-full border border-[#D49B62] px-6 py-4 text-xs uppercase tracking-[0.2em] text-[#D49B62] transition hover:bg-[#D49B62] hover:text-[#100E0C] disabled:opacity-50"
-      >
-        {loading ? "Inspecting the Chest..." : "Open the Chest"}
-      </button>
     </form>
   );
 }

@@ -1,5 +1,5 @@
 import "server-only";
-
+import { env } from "cloudflare:workers";
 import { createHmac, timingSafeEqual } from "node:crypto";
 
 export const SESSION_COOKIE = "ashandthirst_session";
@@ -7,7 +7,7 @@ export const SESSION_COOKIE = "ashandthirst_session";
 const SESSION_DURATION = 60 * 60 * 24 * 7;
 
 function getSecret(): string {
-  const secret = process.env.SESSION_SECRET;
+  const secret = env.SESSION_SECRET;
 
   if (!secret || secret.length < 32) {
     throw new Error("SESSION_SECRET must be at least 32 characters.");
