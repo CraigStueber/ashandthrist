@@ -1,0 +1,312 @@
+
+{
+  "races": [
+    {
+      "id": "human",
+      "name": "Human",
+      "tagline": "Adaptable. Ambitious. Unbroken.",
+      "image": "/images/races/human.png",
+      "availability": "playable",
+      "rarity": "Common throughout Athas",
+      "overview": "Humans are the most widespread people of Athas. They rule city-states, command armies, operate merchant houses, work the fields, fight in gladiatorial arenas, and die in the desert. No single culture or way of life defines humanity. Their circumstances, loyalties, and opportunities shape them far more than their ancestry.",
+      "appearance": "Athasian humans vary greatly in height, build, complexion, and appearance. Generations of exposure to a world ravaged by powerful magic have also left unusual physical traits among some populations. Uncommon eye colors, irregular pigmentation, exaggerated facial features, unusual hair growth, and other minor differences are not unheard of. Such traits are not necessarily signs of magical ability or corruption. Sun-weathered skin, scars, tattoos, ritual markings, and practical clothing are common among those who live and work under Athas's merciless sun.",
+      "culture": "Within the city-states, humans occupy nearly every level of the social hierarchy, from wealthy nobles and powerful templars to craftspeople, laborers, criminals, and enslaved people. Beyond the walls, humans establish villages, travel with merchant caravans, herd animals, raid settlements, and survive in isolated communities. Some accept the authority of the sorcerer-kings as the natural order. Others resent it, resist it, or simply live far enough away to avoid it.",
+      "perception": "Humans are familiar throughout most of Athas, but familiarity does not guarantee trust. Their numbers and political influence give them advantages in many city-states. At the same time, their reputation for ambition, adaptability, and unpredictable loyalties can make other peoples cautious. A human's clothing, possessions, accent, and apparent social standing often influence how they are treated more than their ancestry.",
+      "playingThisRace": "Humans offer enormous freedom when creating a character. You might be a former caravan guard, a disgraced templar, a desert hunter, an arena fighter, a merchant's child, or someone who has never known freedom. Consider what shaped your character before they were enslaved. Did they once hold power? Were they accustomed to hardship? Did they trust the institutions of their city-state, or spend their life avoiding them?",
+      "closingQuote": "On Athas, being human does not make you ordinary. It simply means the world has found countless different ways to test your survival."
+    },
+    
+{
+  "id": "dwarf",
+  "name": "Dwarf",
+  "tagline": "Unyielding. Driven. Bound by purpose.",
+  "image": "/images/races/dwarf.png",
+  "availability": "playable",
+  "rarity": "Uncommon throughout Athas",
+  "overview": "Dwarves are among the most determined and physically resilient peoples of Athas. Shorter than humans but enormously powerful, they are renowned for their endurance, stubbornness, and unwavering dedication to whatever task they undertake. For an Athasian dwarf, purpose is more than ambition. Once committed to a goal, they may pursue it for years or even decades, refusing to abandon it despite overwhelming hardship. They can be found throughout the Tablelands as craftsmen, laborers, warriors, caravan guards, merchants, gladiators, and enslaved workers. They have no great surviving kingdom to call their own, but dwarven communities endure wherever determination and hard work can carve out an existence.",
+  "appearance": "Athasian dwarves typically stand between four and a half and five feet tall, with extraordinarily broad shoulders, thick limbs, and densely muscular bodies. Many weigh nearly as much as a fully grown human despite their shorter stature. They are completely hairless, possessing no beards, eyebrows, or hair on their heads or bodies. Their skin is frequently darkened and weathered by years beneath the relentless Athasian sun. Calloused hands, scars, and hardened physiques are common among those accustomed to physical labor. Their clothing tends toward practicality: durable fabrics, leather, protective wrappings, and equipment suited to their work.",
+  "culture": "Dwarven society places tremendous importance on determination, craftsmanship, family, and the fulfillment of obligations. Many dwarves live in small clans or communities, maintaining traditions and responsibilities passed down through generations. Others reside in the city-states, where their physical strength and reputation for reliability make them highly sought after as workers, soldiers, and guards. Unfortunately, those same qualities also make them valuable to slave owners. Dwarven communities have survived the collapse of kingdoms, the rise of sorcerer-kings, and generations of suffering. Their history is preserved through oral traditions, familial obligations, and the work they leave behind. Among dwarves, an unfinished responsibility can carry greater shame than poverty, defeat, or death.",
+  "perception": "Dwarves are widely respected for their endurance, loyalty, and ability to complete difficult tasks. Merchant houses value dwarven guards. Craftspeople respect dwarven skill. Slave owners prize their physical strength and tireless work ethic. Yet their determination can also make them difficult companions. A dwarf committed to a task may refuse to compromise, even when compromise would be sensible. Those who help them achieve their goals can earn extraordinary loyalty. Those who interfere may discover just how unforgiving a dwarf can become.",
+  "playingThisRace": "Playing an Athasian dwarf means giving your character a powerful sense of purpose. Perhaps you were enslaved while pursuing your Focus. Perhaps your enslavement prevented you from fulfilling a promise, protecting your family, or completing something that mattered more than your own life. Your Focus might even be the reason you were captured. Consider what your character is determined to accomplish and what they might sacrifice to succeed. A dwarf does not have to be humorless, antisocial, or inflexible in every situation. They can be compassionate, generous, curious, or even carefree when circumstances allow. But somewhere beneath those qualities lies a commitment that defines them.",
+  "specialTraits": [
+    {
+      "id": "dwarven-focus",
+      "name": "Dwarven Focus",
+      "description": "Every Athasian dwarf can dedicate themselves completely to a significant undertaking known as their Focus. A Focus is a meaningful goal requiring substantial effort, potentially taking weeks, months, or years to complete. When actively pursuing their Focus, dwarves receive a special mechanical benefit.",
+      "examples": [
+        "Recovering a stolen family heirloom.",
+        "Building a defensible settlement in the wastes.",
+        "Finding a missing family member.",
+        "Avenging the destruction of a clan.",
+        "Fulfilling a promise made to someone who has died."
+      ],
+      "mechanicalEffect": "To be determined",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "arcane-restriction",
+      "name": "Forbidden Arcane Magic",
+      "description": "Athasian dwarves cannot practice arcane magic. They cannot become Wizards, Sorcerers, Warlocks, or acquire arcane spellcasting abilities through other classes or subclasses. This restriction does not automatically prohibit elemental, divine, or psionic abilities.",
+      "status": "approved"
+    },
+    {
+      "id": "banshees-curse",
+      "name": "The Banshee's Curse",
+      "description": "Ancient dwarven traditions warn that those who die before fulfilling their Focus may return as banshees, restless undead consumed by the purpose they failed to accomplish in life.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "An Athasian dwarf does not fear hardship. They fear a life—and perhaps a death—in which their purpose remains unfulfilled."
+},
+{
+  "id": "elf",
+  "name": "Elf",
+  "tagline": "Swift. Cunning. Loyal to their own.",
+  "image": "/images/races/elf.png",
+  "availability": "playable",
+  "rarity": "Common throughout the Tablelands",
+  "overview": "Elves are among the most accomplished desert travelers on Athas. Tall, lean, and extraordinarily swift, they roam the Tablelands in nomadic tribes, crossing stretches of wilderness that other peoples would consider impassable. Their remarkable endurance allows them to travel tremendous distances on foot, often running for hours beneath the merciless sun. Elven tribes make their living through trade, herding, hunting, smuggling, and sometimes raiding. Some operate thriving markets within the city-states, while others avoid civilization whenever possible. For an Athasian elf, survival depends on three things: speed, cunning, and knowing whom to trust.",
+  "appearance": "Athasian elves typically stand between six and a half and seven and a half feet tall. Their bodies are exceptionally lean, with long legs, narrow frames, and powerful muscles developed through constant running. Their faces are angular, with prominent cheekbones, pointed ears, and features hardened by exposure to wind, sand, and sunlight. Their skin tones vary considerably, though years beneath the crimson sun often leave them deeply weathered. Tattoos, scars, piercings, and tribal markings may signify family ties, accomplishments, or important events. Elven clothing emphasizes mobility and protection from the elements. Lightweight fabrics, layered wraps, scarves, leather straps, and bone ornaments are common. Unlike elves in other worlds, Athasian elves rarely appear delicate. Their bodies are built for endurance, their movements economical, and their appearance reflects the brutal environment in which they live.",
+  "culture": "Elven society revolves around the tribe. Each tribe possesses its own customs, traditions, leadership, and means of survival. Some are renowned traders, while others are feared raiders or accomplished hunters. An elf's first loyalty is traditionally to their tribe rather than to any city-state, ruler, or broader elven identity. An elf from another tribe is still an outsider. Shared ancestry does not automatically create friendship or trust. Elves value personal freedom and the ability to move without restriction. Many regard confinement, dependence, and enforced obedience with particular hostility. Among traditional nomadic tribes, running is more than transportation. It is a source of identity, pride, and belonging. Riding an animal rather than traveling under one's own power is often considered shameful, except in circumstances of injury or extreme necessity. Despite their reputation for dishonesty, elves maintain powerful bonds within their communities. A tribe may argue, compete, and deceive outsiders while remaining fiercely committed to protecting its own members.",
+  "perception": "Throughout the city-states, elves have a complicated reputation. They are admired for their speed, survival skills, and remarkable ability to cross the desert. They are also frequently suspected of theft, smuggling, deception, and involvement in black-market trade. Elven markets are known for unusual merchandise, rare supplies, and goods that might be difficult or illegal to obtain elsewhere. A merchant might distrust an elven trader while still purchasing goods that no other caravan could acquire. Likewise, desert travelers may fear encountering an elven raiding party while desperately hoping to hire elven guides for a dangerous crossing. These reputations do not define every elf. An individual may be honorable, dishonest, generous, cruel, or anything in between. Nevertheless, elven characters may encounter suspicion long before they have done anything to deserve it.",
+  "playingThisRace": "Playing an Athasian elf means portraying someone whose understanding of freedom, loyalty, and survival may differ sharply from that of other peoples. Perhaps your character belonged to a powerful trading tribe before being captured. Perhaps they were a desert raider, a skilled runner carrying messages between settlements, or a smuggler who made the mistake of trusting the wrong person. Maybe they grew up in a city-state and have never experienced the nomadic lifestyle associated with their ancestry. Consider how your character responds to being enslaved. For an elf who has spent their life running freely across the desert, being chained and forced to march under another person's authority might be an unbearable humiliation. Does your character dream of returning to their tribe? Were they abandoned by their own people? Or have they found reason to distrust the traditions they were raised to follow? An Athasian elf does not need to be a thief, a liar, or a loner. But freedom, belonging, and trust should be meaningful parts of their story.",
+  "specialTraits": [
+    {
+      "id": "elven-running",
+      "name": "Elven Running",
+      "description": "Athasian elves possess extraordinary endurance when traveling on foot. Their bodies are adapted to sustained running over long distances, making them among the most capable overland travelers in the Tablelands. Their base walking speed is 40 feet. An additional endurance benefit for extended overland travel will be established when the campaign's survival rules are finalized.",
+      "mechanicalEffect": "Base walking speed: 40 feet. Additional endurance mechanics to be determined.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "desert-born",
+      "name": "Desert Born",
+      "description": "Generations of life in the wilderness have made many elves skilled at navigating dunes, recognizing desert dangers, and conserving resources. Elves receive a special benefit when navigating and surviving the Athasian wilderness.",
+      "mechanicalEffect": "Desert navigation and survival benefit to be determined.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "arcane-magic",
+      "name": "Arcane Magic",
+      "description": "Unlike dwarves, Athasian elves may practice arcane magic. Elven arcane spellcasters are subject to the campaign's rules for preserving and defiling, including the dangers and consequences associated with defiling.",
+      "status": "approved"
+    },
+    {
+      "id": "tribal-loyalty",
+      "name": "Tribal Loyalty",
+      "description": "Trust is rarely given freely among traditional elven tribes. Outsiders may be tested repeatedly before being accepted. Once someone earns an elf's loyalty, however, that relationship can become extraordinarily strong. This is a cultural tradition rather than a requirement for every elven character.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "You can steal an elf's possessions. You can bind their hands. You can even force them to their knees. But the desert taught them to run, and they have never forgotten the way."
+},
+
+{
+  "id": "half-elf",
+  "name": "Half-Elf",
+  "tagline": "Independent. Resilient. Searching for belonging.",
+  "image": "/images/races/half-elf.png",
+  "availability": "playable",
+  "rarity": "Uncommon throughout Athas",
+  "overview": "Half-elves are the descendants of humans and elves, inheriting characteristics of both peoples while possessing an identity entirely their own. They are most commonly encountered in the city-states, isolated settlements, merchant caravans, and scattered communities of the Tablelands. Unlike their elven ancestors, half-elves rarely possess strong tribal connections. Traditional elven society often rejects those of mixed heritage, while human communities may regard them with suspicion or distrust. As a result, many half-elves spend much of their lives traveling between communities, finding temporary employment, and learning to survive without depending upon others. Some become hunters, scouts, mercenaries, traders, or wilderness guides. Others find work in cities where their heritage matters less than their usefulness. While many half-elves eventually embrace an independent existence, others spend their lives searching for friendship, family, and acceptance.",
+  "appearance": "Athasian half-elves generally stand between six and six and a half feet tall, falling between the average heights of humans and elves. They typically possess lean, athletic builds, though their frames are noticeably broader and more muscular than those of full-blooded elves. Their facial features combine human and elven characteristics. Slightly pointed ears, angular cheekbones, and elongated facial structures are common, although many half-elves could be mistaken for humans at first glance. Their skin tones, hair colors, and other features vary considerably according to their ancestry. Half-elves who live in the wilderness often display the same weathered appearance as other desert travelers, with sun-darkened skin, practical clothing, scars, and equipment chosen for survival rather than appearance. Unlike the distinctive tribal garments commonly worn by elves, half-elves frequently adopt the clothing and customs of whatever community they inhabit.",
+  "culture": "Half-elves possess no unified civilization, great homeland, or widely recognized culture of their own. Instead, their experiences are shaped by the communities in which they grow up. A half-elf raised among humans may adopt the customs of a city-state, while one raised near elven tribes might struggle to imitate traditions that never fully accept them. Some grow resentful of their treatment and deliberately distance themselves from both peoples. Others seek companionship among dwarves, halflings, thri-kreen, and other inhabitants of Athas who may be less concerned with their mixed ancestry. Many become remarkably self-sufficient. They learn to find water, shelter, food, and work without relying on an extended family or community. Yet independence does not necessarily mean loneliness. Some half-elves develop extraordinary social skills, learning to win trust through humor, diplomacy, generosity, or shared hardship. Others prefer the company of animals, developing close bonds with desert creatures that offer companionship without judgment. Where an elf may define themselves through their tribe and a dwarf through their Focus, a half-elf must often decide for themselves what gives their life meaning.",
+  "perception": "Half-elves occupy an uncomfortable position in Athasian society. Humans may see them as unpredictable outsiders whose loyalties remain uncertain. Elves may regard them as incapable of understanding true tribal traditions. In some communities, a half-elf's ancestry matters little. In others, it can determine whether they are offered employment, denied shelter, or treated with open hostility. Their circumstances can be especially difficult among traditional elven tribes, where ancestry and tribal belonging are closely connected. Yet half-elves also possess advantages born from their unusual position. They can move between different communities, learn multiple customs, and develop relationships that might be difficult for others to establish. A half-elf who has earned a reputation for reliability may become a valued scout, guide, negotiator, or traveling companion. Among people who have themselves experienced rejection, half-elves may discover acceptance they never found among their own relatives.",
+  "playingThisRace": "Playing a half-elf on Athas offers the opportunity to explore themes of identity, independence, and belonging. Perhaps your character was raised by a human parent who concealed their elven ancestry. Perhaps they were abandoned near an elven settlement and survived through the kindness of strangers. They might have spent years traveling with merchant caravans, never remaining in one place long enough to form lasting relationships. Or perhaps they did find a family, only to have that life destroyed when slavers arrived. Consider how your character feels about their heritage. Do they resent the elves for refusing to accept them? Do they feel more comfortable among humans? Have they rejected both cultures entirely? Perhaps they have stopped searching for acceptance and instead seek only independence. Or maybe, despite everything they have endured, they still believe they might someday find people who truly consider them family. A half-elf who is warm, generous, and determined to build a new family can be just as interesting as one who refuses to trust anybody.",
+  "specialTraits": [
+    {
+      "id": "animal-affinity",
+      "name": "Animal Affinity",
+      "description": "Many Athasian half-elves form unusually strong relationships with animals. Whether born from loneliness, patience, or instinctive empathy, they often find it easier to earn the trust of creatures than that of other people. A half-elf can develop a lasting bond with one suitable nonmagical animal, subject to DM approval. This companion may help with scouting, detecting danger, finding resources, or providing companionship. It does not automatically function as a combat companion and does not require the half-elf to become a Ranger.",
+      "mechanicalEffect": "May form a special bond with one suitable nonmagical animal. Exact bonding requirements, companion abilities, and limitations to be determined.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "self-reliant",
+      "name": "Self-Reliant",
+      "description": "Many half-elves have learned to survive without the safety of a permanent community. Finding food, locating water, constructing shelter, and navigating unfamiliar territory are valuable abilities developed through experience and necessity.",
+      "mechanicalEffect": "Proficiency in Survival. Additional bonus when foraging or locating water while traveling alone to be determined.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "between-two-worlds",
+      "name": "Between Two Worlds",
+      "description": "Half-elves often gain experience navigating different societies and understanding customs outside their own communities. Although they may encounter prejudice, their experiences can make them perceptive observers of other people.",
+      "mechanicalEffect": "Choose proficiency in Insight, Persuasion, or Deception.",
+      "status": "approved"
+    },
+    {
+      "id": "arcane-magic",
+      "name": "Arcane Magic",
+      "description": "Athasian half-elves may practice arcane magic. Half-elven arcane spellcasters are subject to the campaign's preserving and defiling rules, including the dangers and consequences associated with defiling.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "Some people are born with a homeland. Others spend their lives searching for one. A half-elf may have to build their own."
+},
+
+{
+  "id": "halfling",
+  "name": "Halfling",
+  "tagline": "Small. Fierce. Ancient beyond memory.",
+  "image": "/images/races/halfling.png",
+  "availability": "playable",
+  "rarity": "Rare in the Tablelands",
+  "overview": "Halflings are a small but formidable people who inhabit some of the last surviving forests and jungles of Athas, particularly the Forest Ridge beyond the Ringing Mountains. While most inhabitants of the Tablelands struggle beneath an unforgiving sun, halflings live among dense vegetation, dangerous wildlife, and landscapes that seem almost impossible in a dying world. They are accomplished hunters, trackers, scouts, and warriors, capable of moving through thick undergrowth with remarkable speed and silence. Their settlements are often difficult to locate, hidden beneath enormous trees or concealed among tangled vegetation. To outsiders, halfling communities may appear primitive or savage. In reality, their societies are governed by intricate traditions, deeply held beliefs, and sophisticated relationships with the natural world. They may lack the great stone cities of humanity, but that does not mean they lack civilization.",
+  "appearance": "Athasian halflings generally stand around three to three and a half feet tall, with compact, muscular bodies. Despite their small stature, they are exceptionally agile and surprisingly strong for their size. Their faces often possess youthful features even into adulthood, giving them an appearance that can be misleading to those unfamiliar with their people. Their skin tones vary, and those living beneath the jungle canopy frequently decorate their bodies with pigments, tattoos, scars, or ceremonial markings. Halflings favor clothing made from natural materials: woven plant fibers, animal hides, leather, feathers, shells, bones, and carved wooden ornaments. Their weapons are similarly practical. Spears, blowguns, slings, clubs, and small blades fashioned from bone or stone are common. A halfling hunter may appear almost harmless until the moment they strike.",
+  "culture": "Halfling culture revolves around community, tradition, and the preservation of the natural world. Families and clans maintain close relationships, with responsibilities shared among their members. Every aspect of life may be governed by ceremonies, customs, and obligations passed down through generations. Songs, storytelling, dance, ornamentation, and artistic expression are important parts of halfling society. Their relationship with nature is particularly profound. Where other peoples see a forest as a collection of resources to exploit, halflings often understand themselves as part of a living system that must remain in balance. To destroy a forest carelessly or drain life from the land through defiling is, to many halflings, an unforgivable offense. Some halfling communities practice ritual or customary cannibalism. Certain clans consider the flesh of slain enemies acceptable food, while others regard intruders as potential prey. These customs vary between communities and are not universal among halflings. Their ancient origins remain largely unknown to the other peoples of Athas.",
+  "perception": "Halflings have a fearsome reputation throughout the Tablelands. Stories of jungle tribes that hunt and consume travelers are told around caravan fires and in city-state taverns. Merchants generally avoid halfling territory unless there is an extremely compelling reason to enter it. Even experienced desert explorers may hesitate at the prospect of crossing the Ringing Mountains into the Forest Ridge. But these stories tell only part of the truth. Halflings are often fiercely loyal to their families, deeply respectful of their traditions, and capable of extraordinary generosity toward those accepted into their communities. A traveler who earns the trust of a halfling clan may discover hospitality and protection unlike anything they have experienced elsewhere. A traveler who violates sacred customs, threatens the forest, or disregards a clan's warnings may discover why halflings are feared. Within the city-states, individual halflings are uncommon enough to attract curiosity, suspicion, or outright fear.",
+  "playingThisRace": "Playing an Athasian halfling provides an opportunity to explore a character whose understanding of civilization, morality, and nature may be radically different from that of their companions. Perhaps your character was a hunter protecting their clan's territory before being captured by slavers. Perhaps they left the Forest Ridge voluntarily, driven by curiosity about the world beyond the mountains. Maybe they were raised among humans and have only heard frightening stories about their own people. Or perhaps their tribe was destroyed, leaving them stranded in a world they barely understand. Consider how your character views the peoples of the Tablelands. Do they regard city-states as unnatural places filled with people who have forgotten how to live? Are they fascinated by human customs, or disgusted by them? How do they feel about defilers, whose magic destroys the living world? And perhaps most importantly, what does your character consider a family? Halflings do not have to be violent, cruel, or cannibalistic. An individual might reject their ancestral customs entirely. But whether they embrace or reject their traditions, their relationship with the natural world should remain a meaningful part of their identity.",
+  "specialTraits": [
+    {
+      "id": "children-of-the-forest",
+      "name": "Children of the Forest",
+      "description": "Halflings possess an instinctive understanding of natural environments, especially forests and jungles. They are skilled at identifying dangerous plants, tracking animals, navigating dense vegetation, and moving unseen through the wilderness.",
+      "mechanicalEffect": "Choose proficiency in Nature or Survival. Gain advantage on Dexterity (Stealth) checks made in natural forest or jungle environments.",
+      "status": "approved"
+    },
+    {
+      "id": "ancient-resilience",
+      "name": "Ancient Resilience",
+      "description": "The ancient ancestry of Athasian halflings grants them an unusual resistance to hostile magical influences. Their connection to the natural world makes them surprisingly difficult to overwhelm with supernatural power.",
+      "mechanicalEffect": "When you fail a saving throw against a spell, you may roll a d4 and add the result to the saving throw, potentially turning the failure into a success. Number of uses per long rest to be determined.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "small-but-deadly",
+      "name": "Small but Deadly",
+      "description": "Halflings are accomplished hunters who rely on stealth, precision, and surprise rather than brute strength. Their size allows them to move through environments where larger opponents struggle. Many halfling hunters specialize in slings, blowguns, and thrown weapons.",
+      "mechanicalEffect": "Retain Halfling Nimbleness, allowing movement through the space of creatures larger than yourself. An additional damage bonus on the first successful sling or thrown-weapon attack against a surprised enemy is under consideration.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "halfling-traditions",
+      "name": "Halfling Traditions",
+      "description": "Some Athasian halfling societies practice ritual or customary cannibalism, regarding it as part of their relationship with nature, hunting, or tribal tradition. These practices are not universal, and player characters are not required to participate in them. Halflings may embrace, question, or reject the customs of their community.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "The tall folk build walls to keep the world outside. We build nothing between ourselves and the world. Perhaps that is why they fear us."
+},
+{
+  "id": "mul",
+  "name": "Mul",
+  "tagline": "Powerful. Tireless. Born into chains, but never born to obey.",
+  "image": "/images/races/mul.png",
+  "availability": "playable",
+  "rarity": "Uncommon throughout Athas",
+  "overview": "Muls are descendants of humans and dwarves, combining the stature and adaptability of humanity with the tremendous strength and endurance of dwarven ancestry. They are among the physically strongest peoples of Athas, capable of enduring punishment, exhaustion, and physical hardship that would overwhelm most others. Unfortunately, these qualities have made them extraordinarily valuable to the slaveholding societies of the Tablelands. Noble houses, merchant organizations, and wealthy arena owners prize muls as gladiators, soldiers, guards, and laborers. Some are deliberately bred into slavery, raised from childhood to serve the interests of those who claim to own them. Yet not every mul is enslaved. Some are born free. Others escape their owners, earn their freedom in the arena, join wandering communities, or build new lives beyond the reach of the city-states. A mul's strength may determine their value to a slave owner. It does not determine who they are.",
+  "appearance": "Muls typically stand between six and seven feet tall, weighing anywhere from 240 to more than 300 pounds. Their bodies are exceptionally muscular, with broad shoulders, powerful limbs, and dense physiques inherited from their dwarven ancestors. Unlike dwarves, muls possess the height and proportions of humans, though their muscular development is far more pronounced. Their faces tend to feature heavy brows, pronounced cheekbones, strong jaws, and slightly pointed ears that angle backward. Most muls are completely bald and lack facial or body hair. Their skin tones vary, from light brown and copper to very dark complexions, depending on their ancestry. Scars are particularly common among muls who have spent their lives in gladiatorial arenas or forced labor. Enslaved muls may also bear tattoos, brands, or other markings identifying their owners, occupations, or victories in the arena. These markings are not simply decorations. They are often reminders that someone once considered them property.",
+  "culture": "Unlike dwarves or elves, muls possess no unified ancestral civilization. They have no great kingdom, shared homeland, or established tribal tradition binding them together. Many grow up in slave compounds, fighting pits, merchant estates, or labor camps, separated from their parents and raised according to the demands of their owners. As a result, mul culture often develops around shared experiences rather than inherited traditions. Gladiators may form powerful bonds with those who train and fight beside them. Laborers may establish informal families among fellow captives. Escaped muls sometimes join communities of freed slaves, creating new customs and loyalties. Some embrace the discipline instilled by their upbringing, becoming highly skilled warriors or craftspeople. Others reject everything associated with their former lives, refusing to serve another master regardless of the consequences. Muls are sterile and cannot have biological children, making family relationships unusually complicated in a society that often denies them the opportunity to form families at all. Yet family does not need to be defined by blood. Many muls find family among comrades, adopted children, fellow survivors, and those who have earned their trust. For some, the closest thing to a homeland is simply the company of people who refuse to abandon them.",
+  "perception": "Muls occupy a disturbing position in Athasian society. They are admired for their physical strength, endurance, and combat prowess, yet are frequently regarded as valuable property rather than individuals. A successful mul gladiator may become famous throughout a city-state, earning cheers from thousands of spectators. Those same spectators might think nothing of watching that gladiator sold to another owner the following morning. Merchant houses value muls for their ability to endure long journeys and exhausting labor. Military commanders prize their resilience. Arena owners see them as investments capable of producing enormous profits. Among ordinary citizens, a free mul may inspire respect, fear, curiosity, or suspicion. Some assume that any mul without an obvious master must be an escaped slave. Others regard muls as dangerous or naturally violent, despite those reputations often arising from the brutal circumstances in which many are raised. A free mul walking openly through a city-state can be a challenge to the assumptions upon which that society operates.",
+  "playingThisRace": "Playing a mul on Athas means creating a character whose physical strength has likely shaped how the world treats them. Perhaps your character was raised in the gladiatorial pits, trained since childhood to entertain crowds through violence. Perhaps they spent years working in a quarry, hauling stone beneath the relentless sun. They might have been born free, only to be captured by slavers who saw an opportunity to make a fortune. Or perhaps they were once a celebrated gladiator, granted privileges and comforts that concealed the reality of their enslavement. Consider how your character feels about their own strength. Do they take pride in it? Do they resent being valued solely for their body? Have they embraced their reputation as a formidable warrior, or do they dream of a life in which they never have to fight again? Some muls are aggressive, intimidating, and quick to anger. Others are patient, thoughtful, compassionate, or gentle. A mul might be a skilled musician, a scholar, a healer, or a merchant who happens to possess extraordinary physical strength. Perhaps your character has never had the opportunity to discover what they truly enjoy. When nobody owns you, and nobody tells you what your purpose is, who do you choose to become?",
+  "specialTraits": [
+    {
+      "id": "unbreakable-endurance",
+      "name": "Unbreakable Endurance",
+      "description": "Muls possess extraordinary stamina. They can work, march, and fight for periods that would exhaust most other peoples. Where others collapse beneath the desert sun, a mul may continue through sheer physical resilience. However, muls still require food, water, and rest, and they remain vulnerable to dehydration, starvation, and extreme environmental conditions.",
+      "mechanicalEffect": "Advantage on Constitution saving throws against exhaustion caused by forced marches, strenuous labor, or extreme physical exertion. Does not provide immunity to exhaustion or protection from dehydration and starvation.",
+      "status": "approved"
+    },
+    {
+      "id": "powerful-build",
+      "name": "Powerful Build",
+      "description": "Muls combine human height with dwarven strength, giving them tremendous physical power. They can carry heavy burdens, move obstacles, and perform feats of physical labor that would challenge larger creatures.",
+      "mechanicalEffect": "Count as one size larger when determining carrying capacity and the weight you can push, drag, or lift.",
+      "status": "approved"
+    },
+    {
+      "id": "relentless",
+      "name": "Relentless",
+      "description": "Muls are notoriously difficult to bring down. Their hardened bodies and remarkable tolerance for physical punishment allow them to keep fighting when others might fall. Even after suffering a devastating injury, a mul may find the strength to remain standing.",
+      "mechanicalEffect": "Once per long rest, when damage would reduce you to 0 hit points without killing you outright, you drop to 1 hit point instead.",
+      "status": "approved"
+    },
+    {
+      "id": "gladiatorial-heritage",
+      "name": "Gladiatorial Heritage",
+      "description": "Many muls are raised in environments where physical strength and combat prowess are essential to survival. Whether trained for the arena, military service, or hard labor, they often develop considerable physical skill. This trait does not require a mul to have been a gladiator.",
+      "mechanicalEffect": "Choose proficiency in Athletics or Intimidation.",
+      "status": "approved"
+    },
+    {
+      "id": "arcane-magic",
+      "name": "Arcane Magic",
+      "description": "Unlike their dwarven ancestors, Athasian muls can practice arcane magic. Muls may become Wizards, Sorcerers, Warlocks, or other arcane spellcasters. They are subject to the campaign's preserving and defiling rules, including the dangers of openly practicing arcane magic in Athasian society.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "They made us strong enough to carry their burdens. They never considered what might happen when we decided to put them down."
+},
+
+{
+  "id": "thri-kreen",
+  "name": "Thri-kreen",
+  "tagline": "Relentless. Alien. Bound by the clutch.",
+  "image": "/images/races/thri-kreen.png",
+  "availability": "playable",
+  "rarity": "Uncommon in the city-states",
+  "overview": "Thri-kreen are intelligent insectoid hunters who roam the deserts, scrublands, and rocky wastes of Athas in nomadic packs. Their unusual physiology allows them to move quickly, leap great distances, endure harsh environments, and defend themselves with weapons as well as their own bodies. Most live in nomadic hunting packs, following the movement of prey and traveling across territories that other peoples rarely dare to explore. Unlike many peoples of Athas, thri-kreen have little interest in building permanent settlements, accumulating wealth, or controlling territory through political institutions. For them, survival depends upon the strength of the clutch, the availability of prey, and the ability to adapt to the wilderness. Some thri-kreen travel alone, having lost their original clutch through violence, misfortune, or separation. Others become guards, scouts, gladiators, or adventurers, sometimes forming powerful bonds with companions of completely different ancestries. Although their behavior often appears strange to outsiders, thri-kreen are intelligent, capable of learning other cultures, and possess their own complex traditions.",
+  "appearance": "Thri-kreen typically stand between six and seven feet tall, although their posture and unusual body proportions make their height difficult to judge. Their bodies are covered in a tough chitinous exoskeleton, commonly colored sandy yellow, ochre, brown, or muted green. Their natural coloration helps them blend into the deserts and scrublands of Athas. They possess four arms and two powerful legs, with clawed hands capable of manipulating tools and wielding weapons. Their heads resemble those of enormous predatory insects, featuring large compound eyes, antennae, and powerful mandibles. Rather than human facial expressions, thri-kreen communicate through posture, antennae movements, gestures, and clicking sounds. Their clothing is generally minimal, consisting of belts, harnesses, pouches, and practical equipment. Their natural armor often makes conventional protective clothing unnecessary. Many carry weapons unique to their people, particularly the double-ended gythka and the throwing weapon known as the chatkcha. A thri-kreen standing motionless can appear almost like a statue. When they move, their speed can be startling.",
+  "culture": "Thri-kreen society revolves around two deeply rooted concepts: the hunt and the clutch. Hunting is not simply a means of obtaining food. It shapes how thri-kreen understand danger, responsibility, patience, cooperation, and survival. A successful hunter knows when to pursue prey, when to conserve energy, and when to abandon a hunt that cannot be won. A clutch is a small group of individuals bound together through powerful instincts of cooperation and protection. A larger collection of clutches may form a pack. Thri-kreen generally regard the survival of the clutch as more important than the ambitions of any individual member. Within a clutch, responsibilities emerge according to ability and circumstance. Some members become leaders, others scouts, hunters, or defenders. A clutch does not have to consist entirely of thri-kreen. A thri-kreen traveling with humans, dwarves, elves, or other peoples may eventually accept those companions as clutchmates, extending the same fierce loyalty they would offer members of their own species. Thri-kreen experience time differently from many humanoids. Their lives are comparatively short, and most reach maturity rapidly. They do not normally sleep, a fact that often causes confusion when traveling with companions who spend several hours unconscious every night.",
+  "perception": "Throughout the Tablelands, thri-kreen inspire a mixture of fear, fascination, and respect. Their appearance alone can frighten people unfamiliar with them. Stories of insectoid hunting parties stalking travelers through the wilderness have given them a reputation as dangerous predators. Their unfamiliar behavior can make matters worse. A thri-kreen might examine someone with intense curiosity, approach without observing human social conventions, or openly discuss whether an unfamiliar creature would make suitable prey. Their relationship with elves is particularly complicated. Some thri-kreen traditionally hunt and eat elves, creating a long history of mistrust and hostility between the two peoples. This practice does not dictate how every individual behaves. Within the city-states, thri-kreen may be employed as guards, displayed as exotic gladiators, or enslaved for their unusual physical capabilities. However, those who have traveled alongside thri-kreen often develop a different opinion. Their loyalty to accepted clutchmates can be extraordinary. A thri-kreen may be socially awkward, blunt, or difficult to understand, but when danger arrives, they are often among the first to stand beside those they consider family.",
+  "playingThisRace": "Playing a thri-kreen offers the chance to experience Athas through the perspective of someone who does not naturally understand humanoid customs. Your character might struggle to comprehend why people accumulate possessions they cannot carry, fight over territory, obey distant rulers, or spend so much of their lives sleeping. Perhaps your character was captured while hunting and sold to gladiatorial trainers who hoped to profit from their unusual abilities. Perhaps their entire clutch was killed by raiders, leaving them alone for the first time. Maybe they were separated from their hunting pack and are desperately searching for a way home. Or perhaps they have spent years among humanoids and learned to appreciate customs that other thri-kreen would consider bizarre. Your character begins the campaign chained to strangers. To a human, those strangers may simply be fellow prisoners. To a thri-kreen, they may gradually become a new clutch. Once accepted as clutchmates, protecting those companions may become one of the most important obligations in the thri-kreen's life. Thri-kreen can be curious, playful, compassionate, impatient, or deeply philosophical. Their instincts and cultural traditions influence how they understand relationships, but do not dictate their individual personality.",
+  "specialTraits": [
+    {
+      "id": "chitinous-armor",
+      "name": "Chitinous Armor",
+      "description": "A thri-kreen's exoskeleton provides natural protection against physical attacks. Their tough chitinous plates serve as armor, reducing their dependence on manufactured protective equipment.",
+      "mechanicalEffect": "When not wearing armor, base Armor Class equals 13 + Dexterity modifier. This does not stack with other base AC calculations.",
+      "status": "approved"
+    },
+    {
+      "id": "four-arms",
+      "name": "Four Arms",
+      "description": "Thri-kreen possess four independently functioning arms, allowing them to manipulate objects, handle equipment, and perform tasks that would be impossible for most humanoids. Their secondary arms can be used to hold and manipulate smaller objects or wield light weapons. Additional arms do not automatically grant additional attacks.",
+      "mechanicalEffect": "Two primary arms and two secondary arms. Secondary arms may manipulate objects and wield light weapons. All attacks still follow normal action economy and weapon restrictions. Exact interactions with shields, spell components, and specialized equipment will be finalized before play.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "sleepless-hunter",
+      "name": "Sleepless Hunter",
+      "description": "Thri-kreen do not require ordinary sleep. While their companions rest, they can remain conscious and aware of their surroundings. This makes them valuable sentries and exceptionally alert traveling companions.",
+      "mechanicalEffect": "You do not need to sleep. You can remain conscious during a long rest, provided you satisfy the normal requirements for completing that rest. You are not immune to exhaustion and still require appropriate recovery.",
+      "status": "approved"
+    },
+    {
+      "id": "predators-leap",
+      "name": "Predator's Leap",
+      "description": "Thri-kreen possess powerful hind legs capable of propelling them across considerable distances. Their jumping ability allows them to navigate rocky terrain, cross obstacles, and launch sudden movements while hunting.",
+      "mechanicalEffect": "Proposed: Once per turn, you may jump a distance up to your walking speed without a running start, provided you have sufficient movement remaining. Exact limitations and interactions with jumping rules will be finalized.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "natural-psionics",
+      "name": "Natural Psionics",
+      "description": "Thri-kreen possess natural psionic abilities that allow them to communicate mentally. These abilities are not arcane magic and do not draw life energy from the environment. Their telepathy helps them communicate with creatures whose spoken languages may be difficult for their insectoid anatomy to reproduce.",
+      "mechanicalEffect": "Limited telepathic communication with willing creatures within 30 feet. Language requirements and additional limitations will be finalized with the campaign's psionics rules.",
+      "status": "pending-mechanics"
+    },
+    {
+      "id": "arcane-restriction",
+      "name": "Forbidden Arcane Magic",
+      "description": "Thri-kreen cannot practice arcane magic. They cannot become Wizards, Sorcerers, Warlocks, or other arcane spellcasters. However, this restriction does not prohibit primal, elemental, spiritual, or psionic abilities. Thri-kreen may become Rangers, Druids, Clerics, or other appropriate classes that use non-arcane magic. A class or subclass that grants arcane spellcasting is unavailable unless the DM approves an appropriate non-arcane adaptation.",
+      "status": "approved"
+    },
+    {
+      "id": "traditional-prey",
+      "name": "Traditional Prey",
+      "description": "Some thri-kreen hunting traditions regard elves as desirable prey. Thri-kreen hunting packs have historically hunted, killed, and eaten elves, creating longstanding hostility between the two peoples. However, individual thri-kreen are not required to follow this tradition. An elf accepted into a thri-kreen's clutch may be regarded as a protected companion rather than prey. This cultural distinction does not require or permit disruptive violence between player characters.",
+      "status": "approved"
+    }
+  ],
+  "closingQuote": "The hunt ends. The sun falls. The prey dies. But the clutch remains."
+}
+
+
+
+
+
+
+  ]
+}
