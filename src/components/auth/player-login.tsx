@@ -24,7 +24,7 @@ export default function PlayerLogin() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ accessCode: password }),
+        body: JSON.stringify({ code: password }),
       });
 
       if (!response.ok) {

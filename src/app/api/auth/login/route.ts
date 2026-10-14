@@ -8,10 +8,6 @@ import {
 } from "@/server/auth/session";
 
 export async function POST(request: NextRequest) {
-  console.log("LOGIN ENV CHECK:", {
-  hasAccessCode: Boolean(process.env.PLAYER_ACCESS_CODE),
-  hasSessionSecret: Boolean(process.env.SESSION_SECRET),
-});
   try {
     const expectedCode = env.PLAYER_ACCESS_CODE;
 

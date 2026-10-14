@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 import { SESSION_COOKIE, verifySession } from "@/server/auth/session";
-
+import { env } from "cloudflare:workers";
 import { chatWithVarek, type ChatMessage } from "@/server/ai/chat";
 
 export const runtime = "edge";
@@ -71,6 +71,27 @@ export async function POST(request: NextRequest) {
 
     if (!valid || messages[messages.length - 1].role !== "user") {
       return NextResponse.json({ error: "Invalid messages." }, { status: 400 });
+    }
+    // Limit chat requests to 10 per minute per IP address.
+    const ip = request.headers.get("cf-connecting-ip") ?? "unknown";
+
+    const { success } = await env.VAREK_RATE_LIMITER.limit({
+      key: ip,
+    });
+
+    if (!success) {
+      return NextResponse.json(
+        {
+          error:
+            "Even Varek needs a moment to catch his breath. Try again shortly.",
+        },
+        {
+          status: 429,
+          headers: {
+            "Retry-After": "60",
+          },
+        },
+      );
     }
 
     const reply = await chatWithVarek(messages);

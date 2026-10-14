@@ -15,6 +15,14 @@ export default defineConfig({
       PLAYER_ACCESS_CODE: bindings.secret(),
       SESSION_SECRET: bindings.secret(),
       OPENAI_API_KEY: bindings.secret(),
+
+      VAREK_RATE_LIMITER: bindings.rateLimit({
+        namespace: "1001",
+        simple: {
+          limit: 10,
+          period: 60,
+        },
+      }),
     },
   }),
 });
