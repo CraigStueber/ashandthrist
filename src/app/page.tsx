@@ -3,21 +3,29 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#100E0C] text-[#E6D3B5]">
-      <header className="absolute inset-x-0 top-0 z-20 flex items-center justify-between px-6 py-6 md:px-12">
+      <header className="absolute inset-x-0 top-0 z-20 flex flex-col items-center gap-5 px-4 py-6 md:flex-row md:justify-between md:gap-0 md:px-12">
+        {/* Site branding */}
         <Link
           href="/"
-          className="text-lg font-semibold tracking-[0.25em] uppercase"
+          className="text-center text-lg font-semibold uppercase tracking-[0.25em] md:text-left"
         >
-          Ash & Thirst
+          Ash &amp; Thirst
         </Link>
 
-        <nav className="flex items-center gap-6 text-xs uppercase tracking-[0.2em] text-[#D49B62]">
-          <a href="#world" className="hover:text-white">
+        {/* Navigation */}
+        <nav className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 text-[10px] uppercase tracking-[0.12em] text-[#D49B62] sm:gap-x-6 sm:text-xs sm:tracking-[0.2em] md:justify-end">
+          <a href="#world" className="transition hover:text-white">
             The World
           </a>
-          <a href="#journey" className="hover:text-white">
+
+          <a href="#journey" className="transition hover:text-white">
             The Journey
           </a>
+
+          <Link href="/campaign-rules" className="transition hover:text-white">
+            Campaign Rules
+          </Link>
+
           <Link href="/enter" className="transition hover:text-white">
             Enter
           </Link>

@@ -301,7 +301,65 @@
     }
   ],
   "closingQuote": "The hunt ends. The sun falls. The prey dies. But the clutch remains."
+},
+{
+  "id": "half-giant",
+  "name": "Half-Giant",
+  "tagline": "Towering. Formidable. Searching for their place.",
+  "image": "/images/races/half-giant.png",
+  "availability": "playable",
+  "rarity": "Uncommon throughout Athas",
+  "overview": "Half-giants are among the largest intelligent peoples commonly encountered in the city-states of Athas. Standing nearly twice the height of an ordinary human, they possess tremendous strength and endurance. Their sheer size makes them valuable soldiers, laborers, guards, and gladiators. Ancient accounts suggest that half-giants first appeared through powerful magical experimentation involving humans and giants. Whatever the truth of these stories, half-giants have existed for generations and are now a distinct people capable of having children with one another. Unlike many Athasian peoples, half-giants possess no great ancestral homeland or shared civilization stretching back into antiquity. They are found throughout the Tablelands, frequently adopting the customs of the communities where they are raised. Some serve sorcerer-kings as elite soldiers, while others work as mercenaries, caravan guards, laborers, or wanderers searching for a place where their immense size does not automatically determine their purpose.",
+  "appearance": "Athasian half-giants typically stand between ten and twelve feet tall, weighing approximately 1,500 to 1,600 pounds or more. They possess enormous, heavy-boned bodies with broad shoulders, thick limbs, deep barrel chests, and massive hands. Many have prominent bellies or thick midsections, giving them a sense of overwhelming physical bulk rather than the tightly defined musculature of a gladiator. Their appearance suggests immense strength, enormous appetites, and considerable physical endurance. Their faces may feature prominent brows, large jaws, broad noses, and exaggerated facial structures. Skin tones vary considerably, reflecting their human ancestry. Hair and facial hair are possible, unlike the completely hairless dwarves and muls of Athas. Their clothing is generally simple and practical because ordinary garments rarely fit. Specially tailored leather, heavy cloth, and oversized protective equipment are often necessary. Weapons intended for humans can appear comically small in their hands. Their size creates practical difficulties: doorways are too low, beds are too small, chairs may collapse beneath them, and ordinary riding animals cannot support their weight.",
+  "culture": "Half-giants possess no single unified culture. Their traditions are frequently inherited from the communities around them, and many adopt the customs, beliefs, occupations, and values of those they respect. A half-giant raised among mercenaries might place tremendous importance on military discipline and personal honor. Another raised among merchants might become fascinated with trade and bargaining. A half-giant who spends years among escaped slaves might develop an uncompromising belief that no intelligent creature should ever be owned. Although half-giants are often influenced by those around them, they possess independent intelligence, personalities, and moral judgment. They are capable of compassion, cruelty, ambition, wisdom, and independent decision-making. Some find fulfillment in protecting people physically weaker than themselves, while others resent being expected to act as protectors simply because of their size. Many form strong attachments to individuals or communities that accept them as people rather than treating them as living weapons.",
+  "perception": "Half-giants are simultaneously valued and feared throughout Athas. Their enormous strength makes them attractive to military commanders, slave owners, wealthy merchants, and arena masters. A single half-giant guard can discourage attacks that might otherwise require an entire squad of soldiers. Their presence in gladiatorial arenas can generate enormous excitement, particularly when they face large or dangerous opponents. Yet many ordinary citizens are uncomfortable around them. Some assume half-giants are unintelligent, violent, or easily manipulated. Others treat them as living weapons rather than individuals. Slave owners may regard half-giants as extraordinarily valuable investments, while free half-giants sometimes struggle to find legitimate employment outside physically demanding professions. Their immense size also creates practical concerns. A settlement might welcome a half-giant's protection but have nowhere suitable for them to sleep. A merchant might happily employ one as a guard while complaining about the amount of food they consume. Half-giants are often welcomed for what they can accomplish and excluded because of what they are.",
+  "playingThisRace": "Playing a half-giant means experiencing Athas as someone whose enormous physical presence shapes nearly every interaction. Perhaps your character served as an elite guard for a wealthy noble family before being betrayed and sold into slavery. Perhaps they were raised among gladiators and have never experienced life outside the arena. They might have spent years traveling with a merchant caravan, forming strong bonds with people who treated them as a companion rather than merely hired muscle. Or perhaps they were born free, living in an isolated community where their size mattered far less than their personality. Consider how your character views their physical power. Do they enjoy being intimidating? Are they proud of their strength? Do they resent how frequently others expect them to solve problems through violence? Perhaps your half-giant is gentle, preferring to avoid fighting whenever possible. Maybe they are remarkably intelligent but constantly underestimated by people who assume strength and intelligence cannot coexist. Your character begins the campaign enslaved, like everyone else. Their captors will have taken special precautions to restrain someone capable of tearing ordinary shackles apart. Heavy chains, reinforced restraints, and specially constructed equipment may be necessary. Physical power alone cannot guarantee freedom. The question is not simply whether you are strong enough to break your chains, but whether you are prepared for everything that happens afterward.",
+  "specialTraits": [
+    {
+      "id": "towering-stature",
+      "name": "Towering Stature",
+      "description": "Half-giants are enormous creatures standing approximately ten to twelve feet tall. Unlike most playable peoples of Athas, they are mechanically Large. Their immense size provides significant physical advantages but creates difficulties when navigating environments constructed for smaller creatures. Narrow corridors, doorways, tunnels, crowded buildings, and confined spaces can become serious obstacles.",
+      "mechanicalEffect": "Creature size: Large. Occupies a 10-by-10-foot space on a standard 5-foot combat grid. Natural melee reach remains 5 feet. Must follow the campaign's squeezing and confined-space rules when entering areas too small to accommodate a Large creature. Large size does not automatically increase weapon damage.",
+      "status": "approved"
+    },
+    {
+      "id": "giants-strength",
+      "name": "Giant's Strength",
+      "description": "Half-giants possess extraordinary physical strength. Their massive bodies allow them to carry enormous loads, move obstacles, and perform feats of physical labor that would challenge smaller creatures.",
+      "mechanicalEffect": "Gain proficiency in Athletics. Carrying capacity and the weight you can push, drag, or lift are calculated using Large creature size. This does not automatically grant additional attacks, increased weapon damage, or extended melee reach.",
+      "status": "approved"
+    },
+    {
+      "id": "immovable",
+      "name": "Immovable",
+      "description": "The extraordinary mass and strength of a half-giant make them extremely difficult to push around. Smaller creatures may discover that moving a determined half-giant requires far more force than expected.",
+      "mechanicalEffect": "Advantage on ability checks and saving throws made to resist being forcibly pushed or knocked prone by creatures smaller than yourself.",
+      "status": "approved"
+    },
+    {
+      "id": "giants-needs",
+      "name": "A Giant's Needs",
+      "description": "Tremendous physical size comes with tremendous requirements. Half-giants need considerably more food and water than smaller peoples. Their equipment must often be custom-made, and ordinary buildings, furniture, vehicles, and mounts may be unsuitable for their size. These limitations are an important part of playing a half-giant in the survival-focused world of Athas.",
+      "mechanicalEffect": "Requires twice the normal daily food and water of a Medium humanoid. Armor, clothing, and equipment must be appropriately sized. Oversized equipment costs and availability will be determined by the campaign's equipment rules. Ordinary mounts cannot carry a half-giant unless specifically capable of supporting a Large rider.",
+      "status": "approved"
+    },
+    {
+      "id": "borrowed-traditions",
+      "name": "Borrowed Traditions",
+      "description": "Half-giants frequently adopt traditions, customs, and behaviors from communities or individuals they admire. Their identities may evolve as they travel, encounter unfamiliar societies, and form meaningful relationships. This tendency does not mean they lack intelligence, independence, or the ability to form personal beliefs.",
+      "status": "approved"
+    },
+    {
+      "id": "arcane-magic",
+      "name": "Arcane Magic",
+      "description": "The availability of arcane spellcasting for half-giant characters has not yet been finalized. Any permitted arcane spellcasting will follow the campaign's preserving and defiling rules.",
+      "mechanicalEffect": "Arcane spellcasting permissions to be determined.",
+      "status": "pending-mechanics"
+    }
+  ],
+  "closingQuote": "They fear my strength because they can see it. They never think to fear the decisions I make with it."
 }
+
 
 
 

@@ -1,0 +1,249 @@
+
+{
+  "weapons": {
+    "introduction": "On Athas, weapons are commonly fashioned from bone, wood, stone, obsidian, and other materials scavenged from the dying world. Metal weapons are extraordinarily rare and valuable. Standard D&D weapon damage represents common bone or wooden construction.",
+    "materials": [
+      {
+        "id": "bone",
+        "name": "Bone / Wood",
+        "attackBonus": 0,
+        "damageBonus": 0,
+        "special": "Standard weapon statistics.",
+        "rarity": "Common"
+      },
+      {
+        "id": "obsidian",
+        "name": "Obsidian",
+        "attackBonus": 0,
+        "damageBonus": 1,
+        "special": "On a natural 1 when attacking with an obsidian weapon, the weapon breaks after the attack.",
+        "rarity": "Common"
+      },
+      {
+        "id": "stone",
+        "name": "Stone",
+        "attackBonus": -1,
+        "damageBonus": 1,
+        "special": "Heavy and difficult to wield accurately.",
+        "rarity": "Common"
+      },
+      {
+        "id": "iron",
+        "name": "Iron",
+        "attackBonus": 1,
+        "damageBonus": 1,
+        "special": "Extremely durable and exceptionally valuable.",
+        "rarity": "Extremely Rare"
+      },
+      {
+        "id": "steel",
+        "name": "Steel",
+        "attackBonus": 1,
+        "damageBonus": 2,
+        "special": "On a natural 20 with a melee weapon attack, the steel weapon breaks the opponent's equipped bone, wooden, obsidian, or stone weapon if the weapons make contact. Magical weapons are unaffected.",
+        "rarity": "Legendary"
+      }
+    ],
+    "breakageRules": [
+      {
+        "title": "Obsidian Breakage",
+        "description": "A natural 1 on an attack roll with an obsidian weapon causes the weapon to break after that attack."
+      },
+      {
+        "title": "Steel Shattering Strike",
+        "description": "When a steel melee weapon scores a natural 20, it can shatter an opponent's equipped bone, wooden, obsidian, or stone weapon if the weapons make contact. This does not affect metal or magical weapons."
+      }
+    ]
+  },
+  "armor": {
+    "introduction": "Most armor on Athas is constructed from hide, leather, bone, chitin, and other natural materials. Iron and steel armor provide better protection, but their extraordinary expense places them beyond the reach of nearly everyone.",
+    "materials": [
+      {
+        "id": "cloth",
+        "name": "Cloth / Leather",
+        "acBonus": 0,
+        "durability": "Standard"
+      },
+      {
+        "id": "bone",
+        "name": "Bone / Wood",
+        "acBonus": 0,
+        "durability": "Standard"
+      },
+      {
+        "id": "chitin",
+        "name": "Chitin",
+        "acBonus": 0,
+        "durability": "Durable"
+      },
+      {
+        "id": "iron",
+        "name": "Iron",
+        "acBonus": 1,
+        "durability": "Highly durable"
+      },
+      {
+        "id": "steel",
+        "name": "Steel",
+        "acBonus": 1,
+        "durability": "Exceptionally durable"
+      }
+    ],
+    "categories": [
+      {
+        "id": "light",
+        "name": "Light Armor",
+        "description": "Flexible protection designed for mobility and comfort in the desert.",
+        "items": [
+          {
+            "name": "Padded",
+            "ac": "11 + Dex",
+            "construction": "Heavy woven cloth"
+          },
+          {
+            "name": "Leather",
+            "ac": "11 + Dex",
+            "construction": "Cured animal hide"
+          },
+          {
+            "name": "Studded Leather",
+            "ac": "12 + Dex",
+            "construction": "Leather reinforced with bone or chitin"
+          }
+        ]
+      },
+      {
+        "id": "medium",
+        "name": "Medium Armor",
+        "description": "A balance of protection and mobility, commonly constructed from layered hide, bone, or chitin.",
+        "items": [
+          {
+            "name": "Hide",
+            "ac": "12 + Dex (max 2)",
+            "construction": "Thick animal hides"
+          },
+          {
+            "name": "Chain Shirt",
+            "ac": "13 + Dex (max 2)",
+            "construction": "Interlocking bone or chitin"
+          },
+          {
+            "name": "Scale Mail",
+            "ac": "14 + Dex (max 2)",
+            "construction": "Overlapping bone or chitin scales"
+          },
+          {
+            "name": "Breastplate",
+            "ac": "14 + Dex (max 2)",
+            "construction": "Hardened chitin or fitted bone"
+          },
+          {
+            "name": "Half Plate",
+            "ac": "16 + Dex (max 2)",
+            "construction": "Exceptionally rare fitted metal armor",
+            "rarity": "Extremely Rare"
+          }
+        ]
+      },
+      {
+        "id": "heavy",
+        "name": "Heavy Armor",
+        "description": "Substantial protection that comes with serious weight and heat considerations.",
+        "items": [
+          {
+            "name": "Ring Mail",
+            "ac": "14",
+            "construction": "Heavy bone-reinforced armor"
+          },
+          {
+            "name": "Chain Mail",
+            "ac": "16",
+            "construction": "Interlocking reinforced chitin plates"
+          },
+          {
+            "name": "Splint",
+            "ac": "17",
+            "construction": "Massive layered bone or chitin"
+          },
+          {
+            "name": "Plate",
+            "ac": "22",
+            "construction": "Exceptionally rare fitted metal armor",
+            "rarity": "Legendary"
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "title": "Material Bonuses",
+        "description": "Iron and steel armor add +1 to the normal Armor Class calculation. Material bonuses do not stack with one another."
+      },
+      {
+        "title": "Armor Durability",
+        "description": "Armor does not ordinarily break from normal attacks. Specific monster abilities, extraordinary attacks, or environmental hazards may damage equipment."
+      },
+      {
+        "title": "Heat and Exhaustion",
+        "description": "Heavy armor can increase the risk of exhaustion during prolonged travel under the Athasian sun. Metal heavy armor is especially dangerous in extreme heat. Exact survival mechanics will be finalized separately."
+      },
+      {
+        "title": "Oversized Equipment",
+        "description": "Half-giants require appropriately sized armor and equipment. The cost and availability of such items will be determined by the campaign's equipment rules."
+      }
+    ]
+  },
+  "metal": {
+    "title": "The Wealth of Kings",
+    "tagline": "On Athas, a blade of iron can be worth more than a human life.",
+    "introduction": "Metal is among the most valuable resources in the world of Athas. Most inhabitants of the Tablelands will live and die without ever owning a true metal weapon. A simple iron dagger may command a price comparable to that of a trained gladiator sold at auction. For an ordinary laborer, such an object represents more wealth than they could reasonably hope to earn in a lifetime.",
+    "facts": [
+      {
+        "title": "Metal Is Wealth",
+        "description": "A single metal weapon may be worth more than everything an ordinary family owns."
+      },
+      {
+        "title": "Metal Attracts Attention",
+        "description": "Carrying an iron or steel weapon openly advertises extraordinary wealth and may attract thieves, officials, merchants, and criminals."
+      },
+      {
+        "title": "Metal Is Power",
+        "description": "Metal weapons provide significant combat advantages over common weapons fashioned from bone, wood, and stone."
+      },
+      {
+        "title": "Metal Is Dangerous to Possess",
+        "description": "An adventurer displaying valuable metal equipment may be questioned about its ownership, targeted for robbery, or accused of theft."
+      }
+    ],
+    "economy": [
+      {
+        "item": "Bone Dagger",
+        "value": "Affordable to ordinary workers"
+      },
+      {
+        "item": "Obsidian Sword",
+        "value": "Valuable but obtainable"
+      },
+      {
+        "item": "Iron Dagger",
+        "value": "Comparable to a valuable gladiator sold at auction"
+      },
+      {
+        "item": "Iron Longsword",
+        "value": "A substantial fortune"
+      },
+      {
+        "item": "Steel Longsword",
+        "value": "Extraordinary wealth"
+      },
+      {
+        "item": "Iron Half Plate",
+        "value": "Only the extremely wealthy could afford it"
+      },
+      {
+        "item": "Full Steel Plate",
+        "value": "The wealth of rulers and their most privileged champions"
+      }
+    ]
+  }
+}
